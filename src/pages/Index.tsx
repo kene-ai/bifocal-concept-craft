@@ -98,13 +98,10 @@ const Index = () => {
       {/* Use Cases Section - Full Screen Parallax */}
       <div className="relative">
         {/* Section Intro */}
-        <div className="container mx-auto px-6 py-24 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Use Cases
+        <div className="container mx-auto px-6 py-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Bifocal helps innovation teams turn customer insights into breakthrough products.
           </h2>
-          <p className="text-muted-foreground text-lg">
-            Scroll to explore how teams use Bifocal
-          </p>
         </div>
 
         {/* Stacked Sticky Slides */}
