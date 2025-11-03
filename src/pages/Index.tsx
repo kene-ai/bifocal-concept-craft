@@ -107,9 +107,11 @@ const Index = () => {
           </p>
         </div>
 
-        {/* Software Teams */}
-        <section className="min-h-screen bg-gradient-to-br from-muted/20 to-muted/5 relative py-20 flex items-start">
-            <Card className="sticky top-20 z-10 container mx-auto px-6 max-w-6xl p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium my-auto">
+        {/* Stacked Sticky Slides */}
+        <div className="relative h-[400vh]">
+          {/* 1. Software Teams */}
+          <div className="sticky top-0 h-screen z-10 flex items-center bg-gradient-to-br from-muted/20 to-muted/5">
+            <Card className="container mx-auto px-6 max-w-6xl w-full p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium">
               <div className="text-center mb-12">
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center mx-auto mb-6">
                   <Code2 className="w-10 h-10 text-primary-foreground" />
@@ -143,11 +145,11 @@ const Index = () => {
                 </div>
               </div>
             </Card>
-        </section>
+          </div>
 
-        {/* CPG & DTC Teams */}
-        <section className="min-h-screen bg-gradient-to-br from-accent/10 to-accent/5 relative py-20 flex items-start">
-            <Card className="sticky top-20 z-20 container mx-auto px-6 max-w-6xl p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium my-auto">
+          {/* 2. CPG & DTC Teams */}
+          <div className="sticky top-0 h-screen z-20 flex items-center bg-gradient-to-br from-accent/10 to-accent/5">
+            <Card className="container mx-auto px-6 max-w-6xl w-full p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium">
               <div className="text-center mb-12">
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-accent to-accent/60 flex items-center justify-center mx-auto mb-6">
                   <Package className="w-10 h-10 text-accent-foreground" />
@@ -181,11 +183,11 @@ const Index = () => {
                 </div>
               </div>
             </Card>
-        </section>
+          </div>
 
-        {/* Growth Marketing Teams */}
-        <section className="min-h-screen bg-gradient-to-br from-secondary/10 to-secondary/5 relative py-20 flex items-start">
-            <Card className="sticky top-20 z-30 container mx-auto px-6 max-w-6xl p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium my-auto">
+          {/* 3. Growth Marketing Teams */}
+          <div className="sticky top-0 h-screen z-30 flex items-center bg-gradient-to-br from-secondary/10 to-secondary/5">
+            <Card className="container mx-auto px-6 max-w-6xl w-full p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium">
               <div className="text-center mb-12">
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary to-secondary/60 flex items-center justify-center mx-auto mb-6">
                   <TrendingUp className="w-10 h-10 text-secondary-foreground" />
@@ -219,11 +221,11 @@ const Index = () => {
                 </div>
               </div>
             </Card>
-        </section>
+          </div>
 
-        {/* Business Strategy Teams */}
-        <section className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/5 relative py-20 flex items-start">
-            <Card className="sticky top-20 z-40 container mx-auto px-6 max-w-6xl p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium my-auto">
+          {/* 4. Business Strategy Teams */}
+          <div className="sticky top-0 h-screen z-40 flex items-center bg-gradient-to-br from-primary/10 to-accent/5">
+            <Card className="container mx-auto px-6 max-w-6xl w-full p-12 md:p-16 bg-background/95 backdrop-blur shadow-premium">
               <div className="text-center mb-12">
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-6">
                   <Lightbulb className="w-10 h-10 text-primary-foreground" />
@@ -257,7 +259,8 @@ const Index = () => {
                 </div>
               </div>
             </Card>
-        </section>
+          </div>
+        </div>
       </div>
 
       {/* Optional: Add subtle decorative elements */}
