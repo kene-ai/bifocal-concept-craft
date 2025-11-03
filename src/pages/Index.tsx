@@ -15,7 +15,8 @@ import {
   ShoppingCart,
   Rocket,
   DollarSign,
-  Target
+  Target,
+  Mail
 } from "lucide-react";
 
 const Index = () => {
@@ -312,13 +313,30 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="border-t bg-muted/30">
-        <div className="container mx-auto px-6 py-12 text-center">
-          <div className="font-bold text-xl mb-2 bg-gradient-primary bg-clip-text text-transparent">
-            Bifocal
+        <div className="container mx-auto px-6 py-12">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+            {/* Left side - Company info */}
+            <div>
+              <div className="font-bold text-xl mb-2 bg-gradient-primary bg-clip-text text-transparent">
+                Bifocal
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Turn customer feedback into product concepts instantly
+              </p>
+            </div>
+
+            {/* Right side - Contact and legal */}
+            <div className="flex flex-col items-start md:items-end gap-4">
+              <Mail className="h-5 w-5 text-muted-foreground" />
+              <div className="text-sm text-muted-foreground text-right">
+                <p className="mb-2">© 2025. All rights reserved.</p>
+                <div className="space-y-1">
+                  <p className="text-primary hover:underline cursor-pointer">Terms of Service</p>
+                  <p className="text-primary hover:underline cursor-pointer">Privacy Policy</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <p className="text-sm text-muted-foreground">
-            Turn customer feedback into product concepts instantly
-          </p>
         </div>
       </footer>
 
