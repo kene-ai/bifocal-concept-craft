@@ -263,8 +263,8 @@ const Index = () => {
       {/* Use Cases Section - Interactive Tabs */}
       <div className="relative">
         {/* Section Intro */}
-        <div className="container mx-auto px-12 md:px-16 lg:px-24 py-12">
-          <div className="max-w-4xl mx-auto text-center">
+        <div className="container mx-auto px-16 md:px-24 lg:px-32 xl:px-40 py-12">
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">
               Bifocal helps innovation teams turn customer insights into breakthrough products.
             </h2>
