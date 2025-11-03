@@ -79,6 +79,95 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Use Cases Section */}
+      <section className="container mx-auto px-6 py-24 md:py-32 bg-muted/20">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Heading */}
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            Use Cases
+          </h2>
+
+          {/* 2x2 Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Software Teams */}
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+              <h3 className="text-xl font-bold mb-4">Software Teams</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Product Feedback</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>New feature development</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Usability testing</span>
+                </li>
+              </ul>
+            </Card>
+
+            {/* CPG & DTC Teams */}
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+              <h3 className="text-xl font-bold mb-4">CPG & DTC Teams</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>New Product Concepts</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Ad Creative</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Packaging & Messaging</span>
+                </li>
+              </ul>
+            </Card>
+
+            {/* Growth Marketing Teams */}
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+              <h3 className="text-xl font-bold mb-4">Growth Marketing Teams</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Landing Pages</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Conversion Flows</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Product display pages</span>
+                </li>
+              </ul>
+            </Card>
+
+            {/* Business Strategy Teams */}
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+              <h3 className="text-xl font-bold mb-4">Business Strategy Teams</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>New business lines</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Pricing research</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Market Entry Strategy</span>
+                </li>
+              </ul>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Optional: Add subtle decorative elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
