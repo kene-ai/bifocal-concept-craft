@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { 
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
   Code2, 
   Package, 
   TrendingUp, 
@@ -118,62 +119,52 @@ const useCasesData = [
 
 // Interactive Use Cases Component
 const UseCasesInteractive = () => {
-  const [selectedUseCase, setSelectedUseCase] = useState(useCasesData[0]);
-
   return (
     <div className="container mx-auto px-12 md:px-16 lg:px-24 pb-32">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Column - Use Case Selector */}
-          <div className="lg:w-1/4 space-y-2">
+        <Tabs defaultValue={useCasesData[0].id} className="w-full">
+          {/* Horizontal Tabs */}
+          <TabsList className="w-full h-auto grid grid-cols-2 lg:grid-cols-4 gap-2 mb-8 bg-transparent p-0">
             {useCasesData.map((useCase) => {
               const Icon = useCase.icon;
-              const isActive = selectedUseCase.id === useCase.id;
-              
               return (
-                <button
+                <TabsTrigger
                   key={useCase.id}
-                  onClick={() => setSelectedUseCase(useCase)}
-                  className={`w-full flex items-center gap-4 p-4 rounded-lg text-left transition-all ${
-                    isActive 
-                      ? 'bg-primary/10 border-2 border-primary shadow-md' 
-                      : 'bg-muted/30 hover:bg-muted/50 border-2 border-transparent'
-                  }`}
+                  value={useCase.id}
+                  className="flex items-center gap-3 p-4 h-auto data-[state=active]:bg-primary/10 data-[state=active]:border-2 data-[state=active]:border-primary data-[state=active]:shadow-md rounded-lg bg-muted/30 border-2 border-transparent"
                 >
-                  <div className={`w-12 h-12 rounded-full flex items-center justify-center ${
-                    isActive ? 'bg-primary/20' : 'bg-primary/10'
-                  }`}>
-                    <Icon className={`w-6 h-6 ${isActive ? 'text-primary' : 'text-muted-foreground'}`} />
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Icon className="w-5 h-5 text-primary" />
                   </div>
-                  <span className={`font-semibold ${isActive ? 'text-foreground' : 'text-muted-foreground'}`}>
-                    {useCase.name}
-                  </span>
-                </button>
+                  <span className="font-semibold text-sm lg:text-base">{useCase.name}</span>
+                </TabsTrigger>
               );
             })}
-          </div>
+          </TabsList>
 
-          {/* Right Column - Sub Use Cases Display */}
-          <div className="lg:w-3/4">
-            <Card className="p-8 md:p-12 bg-background shadow-premium">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {selectedUseCase.subCases.map((subCase, index) => {
-                  const SubIcon = subCase.icon;
-                  
-                  return (
-                    <div key={index} className="text-center space-y-4">
-                      <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
-                        <SubIcon className="w-8 h-8 text-primary" />
+          {/* Content Panels */}
+          {useCasesData.map((useCase) => (
+            <TabsContent key={useCase.id} value={useCase.id} className="mt-0">
+              <Card className="p-8 md:p-12 bg-background shadow-premium">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {useCase.subCases.map((subCase, index) => {
+                    const SubIcon = subCase.icon;
+                    
+                    return (
+                      <div key={index} className="text-center space-y-4">
+                        <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
+                          <SubIcon className="w-8 h-8 text-primary" />
+                        </div>
+                        <h4 className="text-xl font-bold">{subCase.title}</h4>
+                        <p className="text-muted-foreground">{subCase.description}</p>
                       </div>
-                      <h4 className="text-xl font-bold">{subCase.title}</h4>
-                      <p className="text-muted-foreground">{subCase.description}</p>
-                    </div>
-                  );
-                })}
-              </div>
-            </Card>
-          </div>
-        </div>
+                    );
+                  })}
+                </div>
+              </Card>
+            </TabsContent>
+          ))}
+        </Tabs>
       </div>
     </div>
   );
