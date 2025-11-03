@@ -24,7 +24,7 @@ const Index = () => {
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 items-center justify-between px-6">
-          <div className="font-bold text-2xl">Bifocal</div>
+          <div className="font-bold text-2xl bg-gradient-primary bg-clip-text text-transparent">Bifocal</div>
           <Button variant="hero" size="default">
             Get Early Access
           </Button>
