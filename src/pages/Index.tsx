@@ -21,6 +21,16 @@ import {
 const Index = () => {
   return (
     <div className="min-h-screen">
+      {/* Sticky Header */}
+      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container mx-auto flex h-16 items-center justify-between px-6">
+          <div className="font-bold text-2xl">Bifocal</div>
+          <Button variant="hero" size="default">
+            Get Early Access
+          </Button>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="bg-muted/30 container mx-auto px-6 pt-32 pb-24 md:pt-40 md:pb-32">
         <div className="max-w-4xl mx-auto text-center space-y-8">
