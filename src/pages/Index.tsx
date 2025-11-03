@@ -99,7 +99,7 @@ const Index = () => {
       <div className="relative">
         {/* Section Intro */}
         <div className="container mx-auto px-6 py-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold text-indigo-700">
             Bifocal helps innovation teams turn customer insights into breakthrough products.
           </h2>
         </div>
