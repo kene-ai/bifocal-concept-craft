@@ -312,7 +312,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="border-t bg-muted/30">
+      <footer className="border-t bg-gradient-to-br from-primary/10 via-accent/10 to-secondary/10">
         <div className="container mx-auto px-6 py-12">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
             {/* Left side - Company info */}
