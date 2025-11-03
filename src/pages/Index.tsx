@@ -167,7 +167,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Heading */}
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-            Test hundreds of ideas in days, not weeks
+            Test hundreds of ideas in days, not weeks.
           </h2>
 
           {/* 3-Column Grid */}
