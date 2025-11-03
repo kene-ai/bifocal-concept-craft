@@ -4,9 +4,9 @@ import { ArrowRight } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-hero">
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="container mx-auto px-6 pt-32 pb-24 md:pt-40 md:pb-32">
+      <section className="bg-muted/30 container mx-auto px-6 pt-32 pb-24 md:pt-40 md:pb-32">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           {/* Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
