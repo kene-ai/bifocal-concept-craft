@@ -283,7 +283,7 @@ const Index = () => {
       </div>
 
       {/* Final CTA Section */}
-      <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-secondary/10 overflow-hidden">
+      <section className="relative bg-muted/30 overflow-hidden">
         <div className="container mx-auto px-6 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
