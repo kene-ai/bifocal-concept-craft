@@ -268,6 +268,27 @@ const Index = () => {
         </div>
       </div>
 
+      {/* Final CTA Section */}
+      <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-secondary/10 overflow-hidden">
+        <div className="container mx-auto px-6 py-24 md:py-32">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
+              Feedback loops measured in seconds, not sprints
+            </h2>
+            <div className="pt-4">
+              <Button 
+                variant="hero" 
+                size="xl"
+                className="group"
+              >
+                Get Early Access
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Optional: Add subtle decorative elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
