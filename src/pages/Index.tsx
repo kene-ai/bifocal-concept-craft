@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 
 const Index = () => {
@@ -38,6 +39,43 @@ const Index = () => {
           <p className="text-sm text-muted-foreground pt-4">
             Join leading product teams building better products
           </p>
+        </div>
+      </section>
+
+      {/* Value Propositions Section */}
+      <section className="container mx-auto px-6 py-24 md:py-32">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Heading */}
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            Test hundreds of ideas in days, not weeks
+          </h2>
+
+          {/* 3-Column Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Card 1 */}
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+              <h3 className="text-xl font-bold mb-4">Instant prototyping</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Generate product concepts using data from surveys and customer interviews in seconds
+              </p>
+            </Card>
+
+            {/* Card 2 */}
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+              <h3 className="text-xl font-bold mb-4">Iterate fast</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Refine and evolve concepts in real-time during user research, team brainstorms, and customer calls
+              </p>
+            </Card>
+
+            {/* Card 3 */}
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+              <h3 className="text-xl font-bold mb-4">Discover better solutions</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                AI helps you build and test many ideas to find the strongest ones
+              </p>
+            </Card>
+          </div>
         </div>
       </section>
 
