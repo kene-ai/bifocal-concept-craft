@@ -275,13 +275,21 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               Feedback loops measured in seconds, not sprints
             </h2>
-            <div className="pt-4">
+            <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
                 variant="hero" 
                 size="xl"
                 className="group"
               >
                 Get Early Access
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+              <Button 
+                variant="outline" 
+                size="xl"
+                className="group"
+              >
+                Request Demo
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
             </div>
