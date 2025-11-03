@@ -99,9 +99,17 @@ const Index = () => {
       <div className="relative">
         {/* Section Intro */}
         <div className="container mx-auto px-6 py-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-indigo-700">
+          <h2 className="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">
             Bifocal helps innovation teams turn customer insights into breakthrough products.
           </h2>
+          <Button 
+            variant="hero" 
+            size="lg"
+            className="group"
+          >
+            Request Early Access
+            <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+          </Button>
         </div>
 
         {/* Stacked Sticky Slides */}
