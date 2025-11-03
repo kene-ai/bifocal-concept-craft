@@ -219,7 +219,7 @@ const Index = () => {
         <div className="container mx-auto px-6 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              Feedback loops measured in seconds, not sprints
+              Feedback loops measured in seconds, not sprints.
             </h2>
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button variant="hero" size="xl" className="group">
