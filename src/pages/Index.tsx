@@ -121,7 +121,7 @@ const UseCasesInteractive = () => {
   const [selectedUseCase, setSelectedUseCase] = useState(useCasesData[0]);
 
   return (
-    <div className="container mx-auto px-6 pb-24">
+    <div className="container mx-auto px-8 md:px-12 lg:px-16 pb-24">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left Column - Use Case Selector */}
