@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Code2, Package, TrendingUp, Lightbulb, Check } from "lucide-react";
 import { ArrowRight } from "lucide-react";
 
 const Index = () => {
@@ -90,77 +91,113 @@ const Index = () => {
           {/* 2x2 Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Software Teams */}
-            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium hover:scale-[1.02] transition-all duration-300 animate-fade-in">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center mb-6">
+                <Code2 className="w-7 h-7 text-primary-foreground" />
+              </div>
               <h3 className="text-xl font-bold mb-4">Software Teams</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Product Feedback</span>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-primary" />
+                  </div>
+                  <span className="text-muted-foreground">Product Feedback</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>New feature development</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-primary" />
+                  </div>
+                  <span className="text-muted-foreground">New feature development</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Usability testing</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-primary" />
+                  </div>
+                  <span className="text-muted-foreground">Usability testing</span>
                 </li>
               </ul>
             </Card>
 
             {/* CPG & DTC Teams */}
-            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium hover:scale-[1.02] transition-all duration-300 animate-fade-in [animation-delay:100ms]">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-br from-accent to-accent/60 flex items-center justify-center mb-6">
+                <Package className="w-7 h-7 text-accent-foreground" />
+              </div>
               <h3 className="text-xl font-bold mb-4">CPG & DTC Teams</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>New Product Concepts</span>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-accent" />
+                  </div>
+                  <span className="text-muted-foreground">New Product Concepts</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Ad Creative</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-accent" />
+                  </div>
+                  <span className="text-muted-foreground">Ad Creative</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Packaging & Messaging</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-accent" />
+                  </div>
+                  <span className="text-muted-foreground">Packaging & Messaging</span>
                 </li>
               </ul>
             </Card>
 
             {/* Growth Marketing Teams */}
-            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium hover:scale-[1.02] transition-all duration-300 animate-fade-in [animation-delay:200ms]">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-br from-secondary to-secondary/60 flex items-center justify-center mb-6">
+                <TrendingUp className="w-7 h-7 text-secondary-foreground" />
+              </div>
               <h3 className="text-xl font-bold mb-4">Growth Marketing Teams</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Landing Pages</span>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-secondary" />
+                  </div>
+                  <span className="text-muted-foreground">Landing Pages</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Conversion Flows</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-secondary" />
+                  </div>
+                  <span className="text-muted-foreground">Conversion Flows</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Product display pages</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-secondary" />
+                  </div>
+                  <span className="text-muted-foreground">Product display pages</span>
                 </li>
               </ul>
             </Card>
 
             {/* Business Strategy Teams */}
-            <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
+            <Card className="p-8 bg-background shadow-soft hover:shadow-premium hover:scale-[1.02] transition-all duration-300 animate-fade-in [animation-delay:300ms]">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-6">
+                <Lightbulb className="w-7 h-7 text-primary-foreground" />
+              </div>
               <h3 className="text-xl font-bold mb-4">Business Strategy Teams</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>New business lines</span>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-primary" />
+                  </div>
+                  <span className="text-muted-foreground">New business lines</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Pricing research</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-primary" />
+                  </div>
+                  <span className="text-muted-foreground">Pricing research</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Market Entry Strategy</span>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-primary" />
+                  </div>
+                  <span className="text-muted-foreground">Market Entry Strategy</span>
                 </li>
               </ul>
             </Card>
