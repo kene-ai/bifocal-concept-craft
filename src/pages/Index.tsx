@@ -237,7 +237,7 @@ const Index = () => {
             <Card className="p-8 bg-background shadow-soft hover:shadow-premium transition-shadow duration-300">
               <h3 className="text-xl font-bold mb-4">Instant prototyping</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Generate product concepts using data from surveys and customer interviews in seconds
+                Generate product concepts using data from surveys and customer interviews in seconds.
               </p>
             </Card>
 
