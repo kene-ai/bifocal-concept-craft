@@ -58,11 +58,6 @@ const Index = () => {
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
           </div>
-
-          {/* Subtle supporting text */}
-          <p className="text-sm text-muted-foreground pt-4">
-            Join leading product teams building better products
-          </p>
         </div>
       </section>
 
