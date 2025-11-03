@@ -310,6 +310,18 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Footer */}
+      <footer className="border-t bg-muted/30">
+        <div className="container mx-auto px-6 py-12 text-center">
+          <div className="font-bold text-xl mb-2 bg-gradient-primary bg-clip-text text-transparent">
+            Bifocal
+          </div>
+          <p className="text-sm text-muted-foreground">
+            Turn customer feedback into product concepts instantly
+          </p>
+        </div>
+      </footer>
+
       {/* Optional: Add subtle decorative elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
