@@ -265,7 +265,7 @@ const Index = () => {
         {/* Section Intro */}
         <div className="container mx-auto px-16 md:px-24 lg:px-32 xl:px-40 py-12">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Bifocal helps innovation teams turn customer insights into breakthrough products.
             </h2>
             <Button 
