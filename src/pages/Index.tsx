@@ -125,7 +125,7 @@ const UseCasesInteractive = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left Column - Use Case Selector */}
-          <div className="lg:w-1/3 space-y-2">
+          <div className="lg:w-1/4 space-y-2">
             {useCasesData.map((useCase) => {
               const Icon = useCase.icon;
               const isActive = selectedUseCase.id === useCase.id;
@@ -154,7 +154,7 @@ const UseCasesInteractive = () => {
           </div>
 
           {/* Right Column - Sub Use Cases Display */}
-          <div className="lg:w-2/3">
+          <div className="lg:w-3/4">
             <Card className="p-8 md:p-12 bg-background shadow-premium">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {selectedUseCase.subCases.map((subCase, index) => {
