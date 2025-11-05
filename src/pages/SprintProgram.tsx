@@ -77,10 +77,10 @@ const SprintProgram = () => {
 
           {/* Logo Grid */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 items-center justify-items-center opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300">
-            <img src={spotifyLogo} alt="Spotify" className="h-8 md:h-10 w-auto object-contain" />
-            <img src={netflixLogo} alt="Netflix" className="h-8 md:h-10 w-auto object-contain" />
-            <img src={metaLogo} alt="Meta" className="h-8 md:h-10 w-auto object-contain" />
-            <img src={instagramLogo} alt="Instagram" className="h-8 md:h-10 w-auto object-contain" />
+            <img src={spotifyLogo} alt="Spotify" className="h-12 md:h-16 w-auto object-contain" />
+            <img src={netflixLogo} alt="Netflix" className="h-12 md:h-16 w-auto object-contain" />
+            <img src={metaLogo} alt="Meta" className="h-12 md:h-16 w-auto object-contain" />
+            <img src={instagramLogo} alt="Instagram" className="h-12 md:h-16 w-auto object-contain" />
           </div>
         </div>
       </section>
