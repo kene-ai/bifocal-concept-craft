@@ -172,12 +172,14 @@ const SprintProgram = () => {
             <div className="grid grid-cols-5 gap-6">
               {/* Phase 1 */}
               <div className="relative flex flex-col items-center text-center space-y-4">
-                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Flag className="w-10 h-10 text-primary" />
+                <div className="relative z-10 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Flag className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
-                  <p className="text-sm text-muted-foreground">(Day 1-2)</p>
+                  <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Share your context. We set up your dedicated Slack channel and align on goals.
                   </p>
@@ -186,12 +188,14 @@ const SprintProgram = () => {
 
               {/* Phase 2 */}
               <div className="relative flex flex-col items-center text-center space-y-4">
-                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Search className="w-10 h-10 text-primary" />
+                <div className="relative z-10 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Search className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-semibold text-base">Phase 2: Research & Insights</h3>
-                  <p className="text-sm text-muted-foreground">(Day 3-4)</p>
+                  <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We interview 5-7 target users or run surveys. You review insights before we prototype.
                   </p>
@@ -200,12 +204,14 @@ const SprintProgram = () => {
 
               {/* Phase 3 */}
               <div className="relative flex flex-col items-center text-center space-y-4">
-                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Zap className="w-10 h-10 text-primary" />
+                <div className="relative z-10 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Zap className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-semibold text-base">Phase 3: Rapid Prototyping</h3>
-                  <p className="text-sm text-muted-foreground">(Day 5-6)</p>
+                  <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our AI generates 3 high-fidelity prototypes in your brand. You pick the strongest to test.
                   </p>
@@ -214,12 +220,14 @@ const SprintProgram = () => {
 
               {/* Phase 4 */}
               <div className="relative flex flex-col items-center text-center space-y-4">
-                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Users className="w-10 h-10 text-primary" />
+                <div className="relative z-10 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Users className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
-                  <p className="text-sm text-muted-foreground">(Day 7-8)</p>
+                  <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We test with 10-12 users and iterate in real-time based on feedback. You see updates daily.
                   </p>
@@ -228,12 +236,14 @@ const SprintProgram = () => {
 
               {/* Phase 5 */}
               <div className="relative flex flex-col items-center text-center space-y-4">
-                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <FileText className="w-10 h-10 text-primary" />
+                <div className="relative z-10 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <FileText className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
-                  <p className="text-sm text-muted-foreground">(Day 10)</p>
+                  <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get 2-3 validated prototypes, research synthesis, and strategic recommendations.
                   </p>
@@ -250,12 +260,14 @@ const SprintProgram = () => {
             <div className="space-y-8">
               {/* Phase 1 */}
               <div className="relative flex gap-4">
-                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Flag className="w-10 h-10 text-primary" />
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Flag className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="pt-2 space-y-2">
                   <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
-                  <p className="text-sm text-muted-foreground">(Day 1-2)</p>
+                  <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Share your context. We set up your dedicated Slack channel and align on goals.
                   </p>
@@ -264,12 +276,14 @@ const SprintProgram = () => {
 
               {/* Phase 2 */}
               <div className="relative flex gap-4">
-                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Search className="w-10 h-10 text-primary" />
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Search className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="pt-2 space-y-2">
                   <h3 className="font-semibold text-base">Phase 2: Research & Insights</h3>
-                  <p className="text-sm text-muted-foreground">(Day 3-4)</p>
+                  <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We interview 5-7 target users or run surveys. You review insights before we prototype.
                   </p>
@@ -278,12 +292,14 @@ const SprintProgram = () => {
 
               {/* Phase 3 */}
               <div className="relative flex gap-4">
-                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Zap className="w-10 h-10 text-primary" />
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Zap className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="pt-2 space-y-2">
                   <h3 className="font-semibold text-base">Phase 3: Rapid Prototyping</h3>
-                  <p className="text-sm text-muted-foreground">(Day 5-6)</p>
+                  <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our AI generates 3 high-fidelity prototypes in your brand. You pick the strongest to test.
                   </p>
@@ -292,12 +308,14 @@ const SprintProgram = () => {
 
               {/* Phase 4 */}
               <div className="relative flex gap-4">
-                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <Users className="w-10 h-10 text-primary" />
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <Users className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="pt-2 space-y-2">
                   <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
-                  <p className="text-sm text-muted-foreground">(Day 7-8)</p>
+                  <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We test with 10-12 users and iterate in real-time based on feedback. You see updates daily.
                   </p>
@@ -306,12 +324,14 @@ const SprintProgram = () => {
 
               {/* Phase 5 */}
               <div className="relative flex gap-4">
-                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
-                  <FileText className="w-10 h-10 text-primary" />
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-background border-4 border-background flex items-center justify-center shadow-sm">
+                  <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center">
+                    <FileText className="w-10 h-10 text-primary" />
+                  </div>
                 </div>
                 <div className="pt-2 space-y-2">
                   <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
-                  <p className="text-sm text-muted-foreground">(Day 10)</p>
+                  <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get 2-3 validated prototypes, research synthesis, and strategic recommendations.
                   </p>
