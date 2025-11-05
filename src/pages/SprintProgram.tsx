@@ -242,7 +242,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
+                  <h3 className="font-semibold text-base">Phase 5: Validated Prototypes</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get a final report with research synthesis + 2-3 prototypes your team can continue iterating on immediately.
@@ -330,7 +330,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
+                  <h3 className="font-semibold text-base">Phase 5: Validated Prototypes</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get a final report with research synthesis + 2-3 prototypes your team can continue iterating on immediately.
