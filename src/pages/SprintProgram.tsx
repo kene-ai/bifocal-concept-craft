@@ -463,7 +463,7 @@ const SprintProgram = () => {
       </section>
 
       {/* AI Technology Feature Section */}
-      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+      <section className="container mx-auto px-6 md:px-12 lg:px-24 py-16 md:py-24">
         <div className="border border-border/50 rounded-2xl p-8 md:p-12 bg-gradient-to-br from-primary/5 via-background to-primary/5">
           {/* Header */}
           <div className="text-center space-y-4 mb-12 md:mb-16">
