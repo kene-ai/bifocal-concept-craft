@@ -374,7 +374,7 @@ const SprintProgram = () => {
                   </div>
                   <CardTitle className="text-xl mb-2">Validate features before engineering builds them</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <span className="text-primary mt-1">•</span>
@@ -393,11 +393,6 @@ const SprintProgram = () => {
                       <span>Validate your roadmap priorities</span>
                     </li>
                   </ul>
-                  <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-primary">
-                    <p className="text-sm font-medium italic">
-                      "Should we build feature A or B? Test both in one sprint."
-                    </p>
-                  </div>
                 </CardContent>
               </Card>
             </TabsContent>
@@ -410,7 +405,7 @@ const SprintProgram = () => {
                   </div>
                   <CardTitle className="text-xl mb-2">Optimize websites, landing pages and conversion flows</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <span className="text-primary mt-1">•</span>
@@ -429,11 +424,6 @@ const SprintProgram = () => {
                       <span>Explore pricing and packaging approaches</span>
                     </li>
                   </ul>
-                  <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-primary">
-                    <p className="text-sm font-medium italic">
-                      "Which landing page will convert better? Test 10 variations in 2 weeks."
-                    </p>
-                  </div>
                 </CardContent>
               </Card>
             </TabsContent>
@@ -446,7 +436,7 @@ const SprintProgram = () => {
                   </div>
                   <CardTitle className="text-xl mb-2">De-risk new opportunities</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-3">
                       <span className="text-primary mt-1">•</span>
@@ -465,11 +455,6 @@ const SprintProgram = () => {
                       <span>Assess customer demand</span>
                     </li>
                   </ul>
-                  <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-primary">
-                    <p className="text-sm font-medium italic">
-                      "Is there demand for this new offering? Validate before investing."
-                    </p>
-                  </div>
                 </CardContent>
               </Card>
             </TabsContent>
