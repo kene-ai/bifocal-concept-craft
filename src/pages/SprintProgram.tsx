@@ -89,7 +89,7 @@ const SprintProgram = () => {
         <div className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
           <div className="text-center space-y-4 mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Research • Strategy • Design • All in One Sprint
+              Research, strategy and design delivered by the Bifocal team, all in one sprint.
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Everything you need to build, test and iterate on your next product idea before building it, powered by our proprietary AI tools.
