@@ -197,7 +197,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 2: Generative Insights</h3>
                   <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    We interview 5-7 target users or run surveys. You review insights before we prototype.
+                    We'll run user interviews or field a survey to build foundational insights.
                   </p>
                 </div>
               </div>
@@ -285,7 +285,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 2: Generative Insights</h3>
                   <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    We interview 5-7 target users or run surveys. You review insights before we prototype.
+                    We'll run user interviews or field a survey to build foundational insights.
                   </p>
                 </div>
               </div>
