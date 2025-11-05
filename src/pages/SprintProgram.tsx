@@ -872,6 +872,27 @@ const SprintProgram = () => {
           </Button>
         </div>
       </section>
+
+      {/* Final CTA Section */}
+      <section className="bg-gradient-primary relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxIDAgNiAyLjY5IDYgNnMtMi42OSA2LTYgNi02LTIuNjktNi02IDIuNjktNiA2LTZ6IiBzdHJva2U9IiNmZmYiIHN0cm9rZS1vcGFjaXR5PSIuMSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9nPjwvc3ZnPg==')] opacity-20" />
+        <div className="container mx-auto px-36 md:px-48 lg:px-60 py-24 md:py-32 relative z-10">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight">
+              Your next best product decision starts here.
+            </h2>
+            <p className="text-lg md:text-2xl text-white/90 leading-relaxed">
+              Schedule a 30 minute consultation to learn more about the Bifocal Sprint.
+            </p>
+            <div className="pt-4">
+              <Button size="lg" variant="secondary" className="text-lg px-8 py-6 h-auto shadow-elegant">
+                Book Consultation
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
