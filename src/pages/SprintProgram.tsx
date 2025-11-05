@@ -153,7 +153,7 @@ const SprintProgram = () => {
       </section>
 
       {/* Process Timeline Section */}
-      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+      <section className="container mx-auto px-18 md:px-24 lg:px-30 py-16 md:py-24">
         <div className="text-center space-y-4 mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
             How it works
