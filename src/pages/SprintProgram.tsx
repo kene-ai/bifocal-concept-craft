@@ -245,7 +245,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Get 2-3 validated prototypes, research synthesis, and strategic recommendations.
+                    Get a final report with research synthesis + 2-3 prototypes your team can continue iterating on immediately.
                   </p>
                 </div>
               </div>
@@ -333,7 +333,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Get 2-3 validated prototypes, research synthesis, and strategic recommendations.
+                    Get a final report with research synthesis + 2-3 prototypes your team can continue iterating on immediately.
                   </p>
                 </div>
               </div>
