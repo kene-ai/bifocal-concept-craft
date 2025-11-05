@@ -70,7 +70,7 @@ const SprintProgram = () => {
       <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-20">
         <div className="text-center space-y-12">
           {/* Heading */}
-          <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Every discovery sprint run by product, design and research leaders from world-class companies.
           </p>
 
