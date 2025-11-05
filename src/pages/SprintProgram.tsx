@@ -7,7 +7,7 @@ const SprintProgram = () => {
     <div className="min-h-screen">
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container mx-auto flex h-16 items-center justify-between px-6">
+        <div className="container mx-auto flex h-16 items-center justify-between px-12 md:px-16 lg:px-20">
           <div className="font-bold text-2xl bg-gradient-primary bg-clip-text text-transparent">Bifocal</div>
           <Button variant="hero" size="default">
             Book Consultation
@@ -16,7 +16,7 @@ const SprintProgram = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-6 py-24 md:py-32">
+      <section className="container mx-auto px-12 md:px-16 lg:px-20 py-24 md:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Content */}
           <div className="space-y-6">
