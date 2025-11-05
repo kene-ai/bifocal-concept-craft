@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { ArrowRight, Users, Compass, Palette } from "lucide-react";
 import sprintHeroImage from "@/assets/sprint-hero.jpg";
 import spotifyLogo from "@/assets/logos/spotify-logo.png";
 import netflixLogo from "@/assets/logos/netflix-logo.png";
@@ -79,6 +80,73 @@ const SprintProgram = () => {
             <img src={netflixLogo} alt="Netflix" className="h-8 md:h-10 w-auto object-contain" />
             <img src={metaLogo} alt="Meta" className="h-8 md:h-10 w-auto object-contain" />
             <img src={instagramLogo} alt="Instagram" className="h-8 md:h-10 w-auto object-contain" />
+          </div>
+        </div>
+      </section>
+
+      {/* Service Features Section */}
+      <section className="bg-muted/30">
+        <div className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+          <div className="text-center space-y-4 mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+              Research • Strategy • Design • All in One Sprint
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              Everything you need to build, test and iterate on your next product idea before building it, powered by our proprietary AI tools.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12">
+            {/* Card 1 */}
+            <Card>
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Users className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle>Customer Research</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Run customer interviews or surveys to understand needs, validate demand, and test concepts.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Card 2 */}
+            <Card>
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Compass className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle>Product Strategy</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Synthesize insights and create clear specs on what to build, which features to prioritize, and why.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Card 3 */}
+            <Card>
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Palette className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle>Product Design</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Test 5-10 product concepts using high-fidelity, working prototypes built in code, aligned to your brand and UX.
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="flex justify-center">
+            <Button variant="hero" size="lg">
+              Book a consultation
+            </Button>
           </div>
         </div>
       </section>
