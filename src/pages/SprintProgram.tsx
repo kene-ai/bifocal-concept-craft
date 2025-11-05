@@ -682,6 +682,196 @@ const SprintProgram = () => {
           </div>
         </div>
       </section>
+
+      {/* Comparison Table Section */}
+      <section className="container mx-auto px-6 md:px-12 lg:px-24 py-16 md:py-24 bg-muted/30">
+        <div className="text-center space-y-4 mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+            Why Teams Choose Bifocal Sprint
+          </h2>
+        </div>
+
+        {/* Desktop Table */}
+        <div className="hidden md:block max-w-5xl mx-auto">
+          <div className="overflow-hidden rounded-lg border">
+            <table className="w-full">
+              <thead>
+                <tr className="border-b bg-background">
+                  <th className="p-6 text-left font-semibold text-lg w-1/3"></th>
+                  <th className="p-6 text-left font-semibold text-lg bg-muted/50">Traditional Approach</th>
+                  <th className="p-6 text-left font-semibold text-lg bg-primary/5 text-primary">Bifocal Sprint</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Getting Started</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">Weeks of planning and resource negotiation</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>24 hours from approval to kickoff</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Timeline</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">6-8 weeks</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>2 weeks per sprint</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Concepts Tested</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">1-2 concepts</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>5-10 concepts per sprint</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Format</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">Static mockups</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Working code prototypes</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Transparency</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">Report at the end</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Daily Slack updates</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Iteration Speed</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">Weeks between rounds</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Rapid iteration after every user interview</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Your Team's Time</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">60+ hours</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>2-3 hours total</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-6 font-semibold bg-background">Freelance / Agency Cost</td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">$15k-50k+</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-primary/5">
+                    <div className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span>Starting at $5,000</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* Mobile Cards */}
+        <div className="md:hidden space-y-6 max-w-2xl mx-auto">
+          {[
+            { label: "Getting Started", traditional: "Weeks of planning and resource negotiation", bifocal: "24 hours from approval to kickoff" },
+            { label: "Timeline", traditional: "6-8 weeks", bifocal: "2 weeks per sprint" },
+            { label: "Concepts Tested", traditional: "1-2 concepts", bifocal: "5-10 concepts per sprint" },
+            { label: "Format", traditional: "Static mockups", bifocal: "Working code prototypes" },
+            { label: "Transparency", traditional: "Report at the end", bifocal: "Daily Slack updates" },
+            { label: "Iteration Speed", traditional: "Weeks between rounds", bifocal: "Rapid iteration after every user interview" },
+            { label: "Your Team's Time", traditional: "60+ hours", bifocal: "2-3 hours total" },
+            { label: "Freelance / Agency Cost", traditional: "$15k-50k+", bifocal: "Starting at $5,000" },
+          ].map((row, index) => (
+            <Card key={index}>
+              <CardHeader>
+                <CardTitle className="text-lg">{row.label}</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div>
+                  <div className="text-sm font-semibold text-muted-foreground mb-2">Traditional Approach</div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                    <span className="text-muted-foreground">{row.traditional}</span>
+                  </div>
+                </div>
+                <div>
+                  <div className="text-sm font-semibold text-primary mb-2">Bifocal Sprint</div>
+                  <div className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span>{row.bifocal}</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        {/* CTA Button */}
+        <div className="flex justify-center mt-12">
+          <Button size="lg" variant="hero">
+            Book Your Sprint Today
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Button>
+        </div>
+      </section>
     </div>
   );
 };
