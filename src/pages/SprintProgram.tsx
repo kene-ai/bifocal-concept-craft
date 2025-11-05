@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText } from "lucide-react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText, Package, TrendingUp, Lightbulb } from "lucide-react";
 import sprintHeroImage from "@/assets/sprint-hero.jpg";
 import spotifyLogo from "@/assets/logos/spotify-logo.png";
 import netflixLogo from "@/assets/logos/netflix-logo.png";
@@ -346,6 +347,133 @@ const SprintProgram = () => {
           <Button variant="hero" size="lg">
             Start Your Sprint
           </Button>
+        </div>
+      </section>
+
+      {/* Who Uses Bifocal Sprint Section */}
+      <section className="bg-muted/30">
+        <div className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+          <div className="text-center space-y-4 mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+              Who Uses Bifocal Sprint?
+            </h2>
+          </div>
+
+          <Tabs defaultValue="product" className="w-full">
+            <TabsList className="grid w-full grid-cols-3 mb-8">
+              <TabsTrigger value="product">Product Teams</TabsTrigger>
+              <TabsTrigger value="marketing">Marketing & Growth</TabsTrigger>
+              <TabsTrigger value="business">Business Strategy</TabsTrigger>
+            </TabsList>
+
+            <TabsContent value="product" className="animate-fade-in">
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                    <Package className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl mb-2">Validate features before engineering builds them</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Test new product features with target users</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Redesign core flows and experiences</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Explore new product lines and opportunities</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Validate your roadmap priorities</span>
+                    </li>
+                  </ul>
+                  <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-primary">
+                    <p className="text-sm font-medium italic">
+                      "Should we build feature A or B? Test both in one sprint."
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            <TabsContent value="marketing" className="animate-fade-in">
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                    <TrendingUp className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl mb-2">Optimize websites, landing pages and conversion flows</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Test landing page designs and messaging</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Optimize conversion funnels and flows</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Validate product display pages</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Explore pricing and packaging approaches</span>
+                    </li>
+                  </ul>
+                  <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-primary">
+                    <p className="text-sm font-medium italic">
+                      "Which landing page will convert better? Test 10 variations in 2 weeks."
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            <TabsContent value="business" className="animate-fade-in">
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                    <Lightbulb className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl mb-2">De-risk new opportunities</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Validate new business lines</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Test expansion into new markets</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Explore strategic initiatives</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Assess customer demand</span>
+                    </li>
+                  </ul>
+                  <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-primary">
+                    <p className="text-sm font-medium italic">
+                      "Is there demand for this new offering? Validate before investing."
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </TabsContent>
+          </Tabs>
         </div>
       </section>
     </div>
