@@ -26,7 +26,7 @@ const SprintProgram = () => {
         <div className="container mx-auto px-18 md:px-24 lg:px-30 py-24 md:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Left Side - Content */}
-          <div className="space-y-6 lg:col-span-4">
+          <div className="space-y-6 lg:col-span-5">
             {/* Category Label */}
             <div className="text-base md:text-lg uppercase tracking-widest font-semibold bg-gradient-primary bg-clip-text text-transparent">
               The Bifocal Sprint
@@ -52,7 +52,7 @@ const SprintProgram = () => {
           </div>
 
           {/* Right Side - Hero Visual */}
-          <div className="relative lg:col-span-8">
+          <div className="relative lg:col-span-7">
             <div className="relative rounded-2xl overflow-hidden shadow-premium">
               <img 
                 src={sprintHeroImage} 
