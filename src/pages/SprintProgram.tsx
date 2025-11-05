@@ -20,7 +20,7 @@ const SprintProgram = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-24 md:py-32">
+      <section className="container mx-auto px-18 md:px-24 lg:px-30 py-24 md:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Content */}
           <div className="space-y-6">
