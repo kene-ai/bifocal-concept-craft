@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Users, Compass, Palette } from "lucide-react";
+import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText } from "lucide-react";
 import sprintHeroImage from "@/assets/sprint-hero.jpg";
 import spotifyLogo from "@/assets/logos/spotify-logo.png";
 import netflixLogo from "@/assets/logos/netflix-logo.png";
@@ -148,6 +148,184 @@ const SprintProgram = () => {
               Book a consultation
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* Process Timeline Section */}
+      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+        <div className="text-center space-y-4 mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+            How it works
+          </h2>
+          <p className="text-base md:text-lg text-muted-foreground">
+            Complete in 10 business days • Run multiple sprints back-to-back as needed
+          </p>
+        </div>
+
+        {/* Timeline - Horizontal on desktop, vertical on mobile */}
+        <div className="relative">
+          {/* Desktop Timeline */}
+          <div className="hidden lg:block">
+            {/* Connecting Line */}
+            <div className="absolute top-12 left-0 right-0 h-0.5 bg-border" style={{ width: 'calc(100% - 4rem)', marginLeft: '2rem' }} />
+            
+            <div className="grid grid-cols-5 gap-6">
+              {/* Phase 1 */}
+              <div className="relative flex flex-col items-center text-center space-y-4">
+                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Flag className="w-10 h-10 text-primary" />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
+                  <p className="text-sm text-muted-foreground">(Day 1-2)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Share your context. We set up your dedicated Slack channel and align on goals.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 2 */}
+              <div className="relative flex flex-col items-center text-center space-y-4">
+                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Search className="w-10 h-10 text-primary" />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold text-base">Phase 2: Research & Insights</h3>
+                  <p className="text-sm text-muted-foreground">(Day 3-4)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    We interview 5-7 target users or run surveys. You review insights before we prototype.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 3 */}
+              <div className="relative flex flex-col items-center text-center space-y-4">
+                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Zap className="w-10 h-10 text-primary" />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold text-base">Phase 3: Rapid Prototyping</h3>
+                  <p className="text-sm text-muted-foreground">(Day 5-6)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Our AI generates 3 high-fidelity prototypes in your brand. You pick the strongest to test.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 4 */}
+              <div className="relative flex flex-col items-center text-center space-y-4">
+                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Users className="w-10 h-10 text-primary" />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
+                  <p className="text-sm text-muted-foreground">(Day 7-8)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    We test with 10-12 users and iterate in real-time based on feedback. You see updates daily.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 5 */}
+              <div className="relative flex flex-col items-center text-center space-y-4">
+                <div className="relative z-10 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <FileText className="w-10 h-10 text-primary" />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
+                  <p className="text-sm text-muted-foreground">(Day 10)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Get 2-3 validated prototypes, research synthesis, and strategic recommendations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Mobile Timeline */}
+          <div className="lg:hidden relative">
+            {/* Connecting Line */}
+            <div className="absolute left-12 top-0 bottom-0 w-0.5 bg-border" />
+            
+            <div className="space-y-8">
+              {/* Phase 1 */}
+              <div className="relative flex gap-4">
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Flag className="w-10 h-10 text-primary" />
+                </div>
+                <div className="pt-2 space-y-2">
+                  <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
+                  <p className="text-sm text-muted-foreground">(Day 1-2)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Share your context. We set up your dedicated Slack channel and align on goals.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 2 */}
+              <div className="relative flex gap-4">
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Search className="w-10 h-10 text-primary" />
+                </div>
+                <div className="pt-2 space-y-2">
+                  <h3 className="font-semibold text-base">Phase 2: Research & Insights</h3>
+                  <p className="text-sm text-muted-foreground">(Day 3-4)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    We interview 5-7 target users or run surveys. You review insights before we prototype.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 3 */}
+              <div className="relative flex gap-4">
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Zap className="w-10 h-10 text-primary" />
+                </div>
+                <div className="pt-2 space-y-2">
+                  <h3 className="font-semibold text-base">Phase 3: Rapid Prototyping</h3>
+                  <p className="text-sm text-muted-foreground">(Day 5-6)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Our AI generates 3 high-fidelity prototypes in your brand. You pick the strongest to test.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 4 */}
+              <div className="relative flex gap-4">
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <Users className="w-10 h-10 text-primary" />
+                </div>
+                <div className="pt-2 space-y-2">
+                  <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
+                  <p className="text-sm text-muted-foreground">(Day 7-8)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    We test with 10-12 users and iterate in real-time based on feedback. You see updates daily.
+                  </p>
+                </div>
+              </div>
+
+              {/* Phase 5 */}
+              <div className="relative flex gap-4">
+                <div className="relative z-10 flex-shrink-0 w-24 h-24 rounded-full bg-primary/10 border-4 border-background flex items-center justify-center">
+                  <FileText className="w-10 h-10 text-primary" />
+                </div>
+                <div className="pt-2 space-y-2">
+                  <h3 className="font-semibold text-base">Phase 5: Final Recommendations</h3>
+                  <p className="text-sm text-muted-foreground">(Day 10)</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Get 2-3 validated prototypes, research synthesis, and strategic recommendations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* CTA */}
+        <div className="flex justify-center mt-12 md:mt-16">
+          <Button variant="hero" size="lg">
+            Start Your Sprint
+          </Button>
         </div>
       </section>
     </div>
