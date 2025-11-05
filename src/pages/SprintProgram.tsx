@@ -122,7 +122,7 @@ const SprintProgram = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Synthesize insights and create clear specs on what to build, which features to prioritize, and why.
+                  Our team will synthesize insights and create clear specs on what to build, which features to prioritize, and why.
                 </CardDescription>
               </CardContent>
             </Card>
