@@ -131,33 +131,93 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-muted/30 container mx-auto px-6 pt-32 pb-24 md:pt-40 md:pb-32">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          {/* Headline */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-            Turn customer feedback into{" "}
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
-              product concepts
-            </span>{" "}
-            instantly
-          </h1>
+      <section className="bg-white container mx-auto px-6 pt-24 pb-20 md:pt-32 md:pb-28">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left Column - Content */}
+            <div className="space-y-8 text-center lg:text-left">
+              {/* Headline */}
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
+                Complete Product Discovery in{" "}
+                <span className="bg-gradient-primary bg-clip-text text-transparent">
+                  2 Weeks
+                </span>
+              </h1>
 
-          {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Bifocal uses AI to collect feedback, instantly generate product prototypes, 
-            and test concepts with users.
-          </p>
+              {/* Subheadline */}
+              <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+                Get user research, product strategy, and high-fidelity prototypes—everything you need to validate ideas and ship with confidence.
+              </p>
 
-          {/* CTA Button */}
-          <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="xl" className="group">
-              Get Early Access
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button variant="outline" size="xl" className="group">
-              Request Demo
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
+              {/* CTAs */}
+              <div className="pt-4 flex flex-col sm:flex-col gap-4 items-center lg:items-start">
+                {/* Primary CTA */}
+                <Button variant="default" size="xl" className="bg-primary hover:bg-primary/90 text-white shadow-premium w-full sm:w-auto px-8">
+                  Schedule Discovery Call
+                </Button>
+
+                {/* Secondary CTA - Text Link */}
+                <a href="#how-it-works" className="text-base text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 group">
+                  See How It Works
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </a>
+              </div>
+
+              {/* Trust Indicator */}
+              <div className="pt-4">
+                <p className="text-sm text-muted-foreground font-medium">
+                  Built by product leaders from <span className="text-foreground font-semibold">Spotify</span>, <span className="text-foreground font-semibold">Netflix</span>, and <span className="text-foreground font-semibold">Google</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Right Column - Hero Visual */}
+            <div className="relative hidden lg:block">
+              {/* Abstract Illustration - Iteration/Speed Concept */}
+              <div className="relative w-full aspect-square max-w-lg mx-auto">
+                {/* Background Gradient Circle */}
+                <div className="absolute inset-0 bg-gradient-primary opacity-10 rounded-full blur-3xl" />
+
+                {/* Circular Progress Rings - Representing Speed/Iteration */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  {/* Outer Ring */}
+                  <div className="absolute w-full h-full border-4 border-primary/20 rounded-full animate-pulse" />
+
+                  {/* Middle Ring */}
+                  <div className="absolute w-4/5 h-4/5 border-4 border-primary/30 rounded-full animate-[spin_20s_linear_infinite_reverse]" />
+
+                  {/* Inner Ring */}
+                  <div className="absolute w-3/5 h-3/5 border-4 border-primary/40 rounded-full animate-[spin_15s_linear_infinite]" />
+
+                  {/* Center Circle with Icon */}
+                  <div className="relative z-10 w-2/5 h-2/5 bg-gradient-primary rounded-full shadow-premium flex items-center justify-center">
+                    <Rocket className="w-16 h-16 text-white" />
+                  </div>
+                </div>
+
+                {/* Floating Cards - Prototype Mockups */}
+                <div className="absolute top-8 right-0 w-32 h-40 bg-white rounded-lg shadow-premium border border-border p-3 transform rotate-6 hover:rotate-3 transition-transform">
+                  <div className="w-full h-3 bg-primary/20 rounded mb-2" />
+                  <div className="w-3/4 h-2 bg-muted rounded mb-2" />
+                  <div className="w-full h-2 bg-muted rounded mb-2" />
+                  <div className="w-5/6 h-2 bg-muted rounded" />
+                </div>
+
+                <div className="absolute bottom-12 right-8 w-32 h-40 bg-white rounded-lg shadow-soft border border-border p-3 transform -rotate-3 hover:rotate-0 transition-transform">
+                  <div className="w-full h-3 bg-secondary/20 rounded mb-2" />
+                  <div className="w-2/3 h-2 bg-muted rounded mb-2" />
+                  <div className="w-full h-2 bg-muted rounded mb-2" />
+                  <div className="w-4/5 h-2 bg-muted rounded" />
+                </div>
+
+                <div className="absolute top-1/2 left-0 w-28 h-36 bg-white rounded-lg shadow-soft border border-border p-3 transform -rotate-6 hover:-rotate-3 transition-transform">
+                  <div className="w-full h-3 bg-accent/20 rounded mb-2" />
+                  <div className="w-3/5 h-2 bg-muted rounded mb-2" />
+                  <div className="w-full h-2 bg-muted rounded mb-2" />
+                  <div className="w-4/5 h-2 bg-muted rounded" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
