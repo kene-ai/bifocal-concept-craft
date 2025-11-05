@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText, Package, TrendingUp, Lightbulb, LayoutGrid, Code, Brain, Sparkles } from "lucide-react";
+import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText, Package, TrendingUp, Lightbulb, LayoutGrid, Code, Brain, Sparkles, Check } from "lucide-react";
 import sprintHeroImage from "@/assets/sprint-hero.jpg";
 import spotifyLogo from "@/assets/logos/spotify-logo.png";
 import netflixLogo from "@/assets/logos/netflix-logo.png";
@@ -615,6 +615,63 @@ const SprintProgram = () => {
               Book Your Sprint
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+        <div className="text-center space-y-4 mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+            A comprehensive discovery sprint starting at $5,000.
+          </h2>
+        </div>
+
+        {/* Centered Pricing Card */}
+        <div className="max-w-2xl mx-auto">
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl">What's Included:</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              {/* Checklist */}
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span>Full user research (surveys or interviews with 15-20 participants)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span>5-10 tested concepts</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span>2-3 final working prototypes in code</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span>Product strategy and recommendations</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span>AI-powered rapid iteration</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span>Daily Slack updates with full transparency</span>
+                </li>
+              </ul>
+
+              {/* Description */}
+              <p className="text-muted-foreground leading-relaxed pt-4">
+                Run one sprint to validate an idea, or multiple sprints back-to-back to explore deeply and refine winning concepts.
+              </p>
+
+              {/* Bottom Text */}
+              <p className="text-center font-semibold pt-2">
+                No retainers. No long-term commitments.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
     </div>
