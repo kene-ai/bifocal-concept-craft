@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText, Package, TrendingUp, Lightbulb, LayoutGrid, Code, Brain } from "lucide-react";
+import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText, Package, TrendingUp, Lightbulb, LayoutGrid, Code, Brain, Sparkles } from "lucide-react";
 import sprintHeroImage from "@/assets/sprint-hero.jpg";
 import spotifyLogo from "@/assets/logos/spotify-logo.png";
 import netflixLogo from "@/assets/logos/netflix-logo.png";
@@ -527,6 +527,94 @@ const SprintProgram = () => {
           <p className="text-center text-lg md:text-xl font-medium text-foreground max-w-4xl mx-auto">
             This isn't just faster research—it's a fundamentally new capability for product discovery that wasn't possible until now.
           </p>
+        </div>
+      </section>
+
+      {/* Deliverables Section */}
+      <section className="bg-muted/30">
+        <div className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+          <div className="text-center space-y-4 mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+              What You'll Get
+            </h2>
+          </div>
+
+          {/* Deliverables Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
+            {/* Deliverable 1 */}
+            <Card className="h-full">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <FileText className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-xl">User Research Report</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Complete synthesis of all interviews and survey data with key insights and patterns.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Deliverable 2 */}
+            <Card className="h-full">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Code className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-xl">2-3 Working Prototypes</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  High-fidelity prototypes in code—on-brand, validated, ready to export to platforms like Figma, Cursor, Lovable, v0.dev and more.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Deliverable 3 */}
+            <Card className="h-full">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Compass className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-xl">Strategic Recommendations</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Clear direction on which concept to build and why, backed by user data.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Deliverable 4 */}
+            <Card className="h-full">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Sparkles className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-xl">AI-Optimized Data</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  All research data formatted for ChatGPT/Claude so your team can continue analysis
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Bonus Callout */}
+          <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mb-8">
+            <p className="text-center text-base md:text-lg font-medium">
+              <span className="text-primary font-semibold">Bonus:</span> Your team stays aligned through collaborative review sessions throughout the sprint.
+            </p>
+          </div>
+
+          {/* CTA */}
+          <div className="flex justify-center">
+            <Button variant="hero" size="lg">
+              See Example Deliverables
+            </Button>
+          </div>
         </div>
       </section>
     </div>
