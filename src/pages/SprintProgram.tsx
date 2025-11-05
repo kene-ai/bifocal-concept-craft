@@ -22,9 +22,9 @@ const SprintProgram = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-muted/30 relative overflow-hidden">
+      <section className="bg-muted/30 relative overflow-hidden min-h-[600px] lg:min-h-[700px]">
         <div className="container mx-auto px-18 md:px-24 lg:px-30 py-24 md:py-32 relative">
-          <div className="max-w-2xl lg:max-w-xl space-y-6 relative z-10">
+          <div className="max-w-md lg:max-w-lg space-y-6 relative z-10">
             {/* Category Label */}
             <div className="text-base md:text-lg uppercase tracking-widest font-semibold bg-gradient-primary bg-clip-text text-transparent">
               The Bifocal Sprint
@@ -50,12 +50,12 @@ const SprintProgram = () => {
           </div>
 
           {/* Hero Image - Bottom Right */}
-          <div className="hidden lg:block absolute bottom-0 right-0 w-[55%] xl:w-[60%]">
+          <div className="hidden lg:block absolute bottom-0 right-0 w-[65%] xl:w-[70%] -mb-8 lg:-mb-12">
             <div className="relative">
               <img 
                 src={sprintHeroImage} 
                 alt="Product development sprint iteration concept showing rapid prototyping and testing cycles" 
-                className="w-full h-auto rounded-tl-2xl shadow-premium"
+                className="w-full h-auto shadow-premium"
               />
             </div>
           </div>
