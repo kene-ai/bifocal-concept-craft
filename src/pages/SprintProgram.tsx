@@ -21,7 +21,7 @@ const SprintProgram = () => {
           {/* Left Side - Content */}
           <div className="space-y-6">
             {/* Category Label */}
-            <div className="text-sm uppercase tracking-widest text-muted-foreground font-semibold">
+            <div className="text-sm uppercase tracking-widest font-semibold bg-gradient-primary bg-clip-text text-transparent">
               The Bifocal Sprint
             </div>
             
