@@ -93,7 +93,7 @@ const SprintProgram = () => {
               Research, strategy and design delivered by the Bifocal team, all in one sprint.
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Everything you need to build, test and iterate on your next product idea before building it, powered by our proprietary AI tools.
+              Everything you need to build, test and iterate on your next product idea, powered by our proprietary AI tools.
             </p>
           </div>
 
