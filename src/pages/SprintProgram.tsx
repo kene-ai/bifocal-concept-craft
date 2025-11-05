@@ -22,9 +22,11 @@ const SprintProgram = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-muted/30 relative overflow-hidden min-h-[600px] lg:min-h-[700px]">
-        <div className="container mx-auto px-18 md:px-24 lg:px-30 py-24 md:py-32 relative">
-          <div className="max-w-md lg:max-w-lg space-y-6 relative z-10">
+      <section className="bg-muted/30">
+        <div className="container mx-auto px-18 md:px-24 lg:px-30 py-24 md:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Left Side - Content */}
+          <div className="space-y-6">
             {/* Category Label */}
             <div className="text-base md:text-lg uppercase tracking-widest font-semibold bg-gradient-primary bg-clip-text text-transparent">
               The Bifocal Sprint
@@ -49,19 +51,8 @@ const SprintProgram = () => {
             </div>
           </div>
 
-          {/* Hero Image - Bottom Right */}
-          <div className="hidden lg:block absolute bottom-0 right-0 w-[65%] xl:w-[70%] -mb-8 lg:-mb-12">
-            <div className="relative">
-              <img 
-                src={sprintHeroImage} 
-                alt="Product development sprint iteration concept showing rapid prototyping and testing cycles" 
-                className="w-full h-auto shadow-premium"
-              />
-            </div>
-          </div>
-
-          {/* Mobile Image */}
-          <div className="lg:hidden mt-12 relative">
+          {/* Right Side - Hero Visual */}
+          <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-premium">
               <img 
                 src={sprintHeroImage} 
@@ -69,7 +60,10 @@ const SprintProgram = () => {
                 className="w-full h-auto"
               />
             </div>
+            {/* Decorative gradient accent */}
+            <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/10 rounded-full blur-3xl" />
           </div>
+        </div>
         </div>
       </section>
 
