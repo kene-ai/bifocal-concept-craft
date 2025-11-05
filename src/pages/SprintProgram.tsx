@@ -229,7 +229,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
                   <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    We test with 10-12 users and iterate in real-time based on feedback. You see updates daily.
+                    We test concepts with 10-12 users, iterating the prototype between interviews based on feedback so that you can test more variations faster. We'll keep you updated with insights from every interview + concept iterations.
                   </p>
                 </div>
               </div>
@@ -317,7 +317,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
                   <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    We test with 10-12 users and iterate in real-time based on feedback. You see updates daily.
+                    We test concepts with 10-12 users, iterating the prototype between interviews based on feedback so that you can test more variations faster. We'll keep you updated with insights from every interview + concept iterations.
                   </p>
                 </div>
               </div>
