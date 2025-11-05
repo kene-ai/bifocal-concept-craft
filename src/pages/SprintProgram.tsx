@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText, Package, TrendingUp, Lightbulb, LayoutGrid, Code, Brain, Sparkles, Check } from "lucide-react";
-import sprintHeroImage from "@/assets/sprint-hero.jpg";
+import sprintHeroImage from "@/assets/sprint-hero-new.png";
 import spotifyLogo from "@/assets/logos/spotify-logo.png";
 import netflixLogo from "@/assets/logos/netflix-logo.png";
 import metaLogo from "@/assets/logos/meta-logo.png";
