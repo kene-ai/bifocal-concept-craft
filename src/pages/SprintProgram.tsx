@@ -210,7 +210,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Phase 3: Rapid Prototyping</h3>
+                  <h3 className="font-semibold text-base">Phase 3: Concept Prototyping</h3>
                   <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our AI generates 3 high-fidelity prototypes in your brand. You pick the strongest to test.
@@ -298,7 +298,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Phase 3: Rapid Prototyping</h3>
+                  <h3 className="font-semibold text-base">Phase 3: Concept Prototyping</h3>
                   <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our AI generates 3 high-fidelity prototypes in your brand. You pick the strongest to test.
