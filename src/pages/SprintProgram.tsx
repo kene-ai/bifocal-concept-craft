@@ -181,7 +181,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
                   <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Share your context. We set up your dedicated Slack channel and align on goals.
+                    After a kickoff call to share context, we'll create a Slack channel and finalize the project plan.
                   </p>
                 </div>
               </div>
@@ -269,7 +269,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
                   <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Share your context. We set up your dedicated Slack channel and align on goals.
+                    After a kickoff call to share context, we'll create a Slack channel and finalize the project plan.
                   </p>
                 </div>
               </div>
