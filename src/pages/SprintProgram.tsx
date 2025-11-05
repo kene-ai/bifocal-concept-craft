@@ -302,7 +302,7 @@ const SprintProgram = () => {
                   <h3 className="font-semibold text-base">Phase 3: Concept Prototyping</h3>
                   <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Our AI generates 3 high-fidelity prototypes, each aligned to your brand and UX. You pick the strongest to test.
+                    Our team will create 3 high-fidelity prototypes, each aligned to your brand and UX. You pick the strongest one to test.
                   </p>
                 </div>
               </div>
