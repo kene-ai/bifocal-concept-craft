@@ -819,7 +819,7 @@ const SprintProgram = () => {
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">$15k-50k+</span>
+                      <span className="text-muted-foreground">$15k+</span>
                     </div>
                   </td>
                 </tr>
