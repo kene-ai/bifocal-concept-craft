@@ -159,7 +159,7 @@ const SprintProgram = () => {
             How it works
           </h2>
           <p className="text-base md:text-lg text-muted-foreground">
-            Complete in 10 business days • Run multiple sprints back-to-back as needed
+            A comprehensive sprint complete in 10 business days. Run a single sprint or multiple back-to-back as needed.
           </p>
         </div>
 
