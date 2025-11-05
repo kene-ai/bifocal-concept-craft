@@ -152,74 +152,6 @@ const SprintProgram = () => {
         </div>
       </section>
 
-      {/* AI Technology Feature Section */}
-      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
-        <div className="border border-border/50 rounded-2xl p-8 md:p-12 bg-gradient-to-br from-primary/5 via-background to-primary/5">
-          {/* Header */}
-          <div className="text-center space-y-4 mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Our Difference: Proprietary AI Technology
-            </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              We've built breakthrough AI tools that collapse traditional feedback loops—letting us iterate on prototypes in minutes instead of weeks.
-            </p>
-          </div>
-
-          {/* Supporting Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8">
-            {/* Card 1 */}
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <LayoutGrid className="w-6 h-6 text-primary" />
-                </div>
-                <CardTitle className="text-lg">Rapid prototyping and testing</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base">
-                  Our AI creates a seamless workflow from feedback → synthesis → design. You test 5-10 concepts in 2 weeks vs. 1-2 concepts in 6-8 weeks with traditional methods.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            {/* Card 2 */}
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Code className="w-6 h-6 text-primary" />
-                </div>
-                <CardTitle className="text-lg">AI-optimized deliverables, not static files</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base">
-                  We deliver AI-generated prototypes that are ready-to-use in coding and design tools like Figma and Cursor, and research data formatted for ChatGPT or Claude in code that your engineers can build from directly.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            {/* Card 3 */}
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Brain className="w-6 h-6 text-primary" />
-                </div>
-                <CardTitle className="text-lg">Constant transparency</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base">
-                  We give daily updates over a Slack channel where you can watch interviews, read summaries, and interact with prototypes as we're developing them
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* Bottom Statement */}
-          <p className="text-center text-lg md:text-xl font-medium text-foreground max-w-4xl mx-auto">
-            This isn't just faster research—it's a fundamentally new capability for product discovery that wasn't possible until now.
-          </p>
-        </div>
-      </section>
-
       {/* Process Timeline Section */}
       <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
         <div className="text-center space-y-4 mb-12 md:mb-16">
@@ -527,6 +459,74 @@ const SprintProgram = () => {
               </Card>
             </TabsContent>
           </Tabs>
+        </div>
+      </section>
+
+      {/* AI Technology Feature Section */}
+      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
+        <div className="border border-border/50 rounded-2xl p-8 md:p-12 bg-gradient-to-br from-primary/5 via-background to-primary/5">
+          {/* Header */}
+          <div className="text-center space-y-4 mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+              Our Difference: Proprietary AI Technology
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              We've built breakthrough AI tools that collapse traditional feedback loops—letting us iterate on prototypes in minutes instead of weeks.
+            </p>
+          </div>
+
+          {/* Supporting Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8">
+            {/* Card 1 */}
+            <Card>
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <LayoutGrid className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-lg">Rapid prototyping and testing</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Our AI creates a seamless workflow from feedback → synthesis → design. You test 5-10 concepts in 2 weeks vs. 1-2 concepts in 6-8 weeks with traditional methods.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Card 2 */}
+            <Card>
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Code className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-lg">AI-optimized deliverables, not static files</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  We deliver AI-generated prototypes that are ready-to-use in coding and design tools like Figma and Cursor, and research data formatted for ChatGPT or Claude in code that your engineers can build from directly.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            {/* Card 3 */}
+            <Card>
+              <CardHeader>
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Brain className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-lg">Constant transparency</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  We give daily updates over a Slack channel where you can watch interviews, read summaries, and interact with prototypes as we're developing them
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Bottom Statement */}
+          <p className="text-center text-lg md:text-xl font-medium text-foreground max-w-4xl mx-auto">
+            This isn't just faster research—it's a fundamentally new capability for product discovery that wasn't possible until now.
+          </p>
         </div>
       </section>
     </div>
