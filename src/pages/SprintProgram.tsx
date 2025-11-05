@@ -179,7 +179,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
+                  <h3 className="font-semibold text-base">Getting Started</h3>
                   <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     After a kickoff call to share context, we'll create a Slack channel and finalize the project plan.
@@ -195,7 +195,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Phase 2: Generative Insights</h3>
+                  <h3 className="font-semibold text-base">Generative Insights</h3>
                   <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We'll run user interviews or field a survey to build foundational insights.
@@ -211,7 +211,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Phase 3: Concept Prototyping</h3>
+                  <h3 className="font-semibold text-base">Concept Prototyping</h3>
                   <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our AI generates 3 high-fidelity prototypes, each aligned to your brand and UX. You pick the strongest to test.
@@ -227,7 +227,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
+                  <h3 className="font-semibold text-base">Concept Testing</h3>
                   <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We test concepts with 10-12 users, iterating the prototype between interviews. We'll share learnings after every interview.
@@ -243,7 +243,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Phase 5: Validated Prototypes</h3>
+                  <h3 className="font-semibold text-base">Validated Prototypes</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get a final report with research synthesis + 2-3 prototypes your team can continue iterating on immediately.
@@ -267,7 +267,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
+                  <h3 className="font-semibold text-base">Getting Started</h3>
                   <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     After a kickoff call to share context, we'll create a Slack channel and finalize the project plan.
@@ -283,7 +283,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Phase 2: Generative Insights</h3>
+                  <h3 className="font-semibold text-base">Generative Insights</h3>
                   <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We'll run user interviews or field a survey to build foundational insights.
@@ -299,7 +299,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Phase 3: Concept Prototyping</h3>
+                  <h3 className="font-semibold text-base">Concept Prototyping</h3>
                   <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our team will create 3 high-fidelity prototypes, each aligned to your brand and UX. You pick the strongest one to test.
@@ -315,7 +315,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
+                  <h3 className="font-semibold text-base">Concept Testing</h3>
                   <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We test concepts with 10-12 users, iterating the prototype between interviews. We'll share learnings after every interview.
@@ -331,7 +331,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Phase 5: Validated Prototypes</h3>
+                  <h3 className="font-semibold text-base">Validated Prototypes</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get a final report with research synthesis + 2-3 prototypes your team can start building immediately.
