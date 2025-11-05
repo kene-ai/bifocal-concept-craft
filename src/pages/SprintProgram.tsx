@@ -2,15 +2,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowRight, Users, Compass, Palette, Flag, Search, Zap, FileText, Package, TrendingUp, Lightbulb, LayoutGrid, Code, Brain, Sparkles, Check } from "lucide-react";
-import sprintHeroImage from "@/assets/sprint-hero-latest.png";
+import sprintHeroImage from "@/assets/sprint-hero.jpg";
 import spotifyLogo from "@/assets/logos/spotify-logo.png";
 import netflixLogo from "@/assets/logos/netflix-logo.png";
 import metaLogo from "@/assets/logos/meta-logo.png";
 import instagramLogo from "@/assets/logos/instagram-logo.png";
-
 const SprintProgram = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 items-center justify-between px-36 md:px-48 lg:px-60">
@@ -24,9 +22,9 @@ const SprintProgram = () => {
       {/* Hero Section */}
       <section className="bg-muted/30">
         <div className="container mx-auto px-18 md:px-24 lg:px-30 py-24 md:py-32">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Content */}
-          <div className="space-y-6 lg:col-span-5">
+          <div className="space-y-6">
             {/* Category Label */}
             <div className="text-base md:text-lg uppercase tracking-widest font-semibold bg-gradient-primary bg-clip-text text-transparent">
               The Bifocal Sprint
@@ -52,13 +50,9 @@ const SprintProgram = () => {
           </div>
 
           {/* Right Side - Hero Visual */}
-          <div className="relative lg:col-span-7">
+          <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-premium">
-              <img 
-                src={sprintHeroImage} 
-                alt="Product development sprint iteration concept showing rapid prototyping and testing cycles" 
-                className="w-full h-auto"
-              />
+              <img src={sprintHeroImage} alt="Product development sprint iteration concept showing rapid prototyping and testing cycles" className="w-full h-auto" />
             </div>
             {/* Decorative gradient accent */}
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/10 rounded-full blur-3xl" />
@@ -77,10 +71,10 @@ const SprintProgram = () => {
 
           {/* Logo Grid */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 items-center justify-items-center opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300">
-            <img src={spotifyLogo} alt="Spotify" className="h-16 md:h-20 lg:h-24 w-auto object-contain" />
-            <img src={netflixLogo} alt="Netflix" className="h-16 md:h-20 lg:h-24 w-auto object-contain" />
-            <img src={metaLogo} alt="Meta" className="h-16 md:h-20 lg:h-24 w-auto object-contain" />
-            <img src={instagramLogo} alt="Instagram" className="h-16 md:h-20 lg:h-24 w-auto object-contain" />
+            <img src={spotifyLogo} alt="Spotify" className="h-12 md:h-16 w-auto object-contain" />
+            <img src={netflixLogo} alt="Netflix" className="h-12 md:h-16 w-auto object-contain" />
+            <img src={metaLogo} alt="Meta" className="h-12 md:h-16 w-auto object-contain" />
+            <img src={instagramLogo} alt="Instagram" className="h-12 md:h-16 w-auto object-contain" />
           </div>
         </div>
       </section>
@@ -153,7 +147,7 @@ const SprintProgram = () => {
       </section>
 
       {/* Process Timeline Section */}
-      <section className="container mx-auto px-18 md:px-24 lg:px-30 py-16 md:py-24">
+      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-24">
         <div className="text-center space-y-4 mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
             How it works
@@ -168,7 +162,10 @@ const SprintProgram = () => {
           {/* Desktop Timeline */}
           <div className="hidden lg:block">
             {/* Connecting Line */}
-            <div className="absolute top-12 left-0 right-0 h-0.5 bg-border" style={{ width: 'calc(100% - 4rem)', marginLeft: '2rem' }} />
+            <div className="absolute top-12 left-0 right-0 h-0.5 bg-border" style={{
+            width: 'calc(100% - 4rem)',
+            marginLeft: '2rem'
+          }} />
             
             <div className="grid grid-cols-5 gap-6">
               {/* Phase 1 */}
@@ -179,7 +176,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Getting Started</h3>
+                  <h3 className="font-semibold text-base">Phase 1: Getting Started</h3>
                   <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     After a kickoff call to share context, we'll create a Slack channel and finalize the project plan.
@@ -195,7 +192,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Generative Insights</h3>
+                  <h3 className="font-semibold text-base">Phase 2: Generative Insights</h3>
                   <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We'll run user interviews or field a survey to build foundational insights.
@@ -211,7 +208,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Concept Prototyping</h3>
+                  <h3 className="font-semibold text-base">Phase 3: Concept Prototyping</h3>
                   <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our AI generates 3 high-fidelity prototypes, each aligned to your brand and UX. You pick the strongest to test.
@@ -227,10 +224,10 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Concept Testing</h3>
+                  <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
                   <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    We test concepts with 10-12 users, iterating the prototype between interviews. We'll share learnings after every interview.
+                    We test concepts with 10-12 users, iterating the prototype between interviews based on feedback so that you can test more variations faster. We'll keep you updated with insights from every interview + concept iterations.
                   </p>
                 </div>
               </div>
@@ -243,7 +240,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-base">Validated Prototypes</h3>
+                  <h3 className="font-semibold text-base">Phase 5: Validated Prototypes</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get a final report with research synthesis + 2-3 prototypes your team can continue iterating on immediately.
@@ -267,7 +264,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Getting Started</h3>
+                  <h3 className="font-semibold text-base">Sprint Kickoff</h3>
                   <p className="text-sm text-muted-foreground">Day 1-2</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     After a kickoff call to share context, we'll create a Slack channel and finalize the project plan.
@@ -283,7 +280,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Generative Insights</h3>
+                  <h3 className="font-semibold text-base">Phase 2: Generative Insights</h3>
                   <p className="text-sm text-muted-foreground">Day 3-4</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     We'll run user interviews or field a survey to build foundational insights.
@@ -299,7 +296,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Concept Prototyping</h3>
+                  <h3 className="font-semibold text-base">Phase 3: Concept Prototyping</h3>
                   <p className="text-sm text-muted-foreground">Day 5-6</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Our team will create 3 high-fidelity prototypes, each aligned to your brand and UX. You pick the strongest one to test.
@@ -315,10 +312,10 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Concept Testing</h3>
+                  <h3 className="font-semibold text-base">Phase 4: Concept Testing</h3>
                   <p className="text-sm text-muted-foreground">Day 7-8</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    We test concepts with 10-12 users, iterating the prototype between interviews. We'll share learnings after every interview.
+                    We test concepts with 10-12 users, iterating the prototype between interviews based on feedback. We'll keep you updated with insights + concept iterations.
                   </p>
                 </div>
               </div>
@@ -331,7 +328,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
                 <div className="pt-2 space-y-2">
-                  <h3 className="font-semibold text-base">Validated Prototypes</h3>
+                  <h3 className="font-semibold text-base">Phase 5: Validated Prototypes</h3>
                   <p className="text-sm text-muted-foreground">Day 10</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Get a final report with research synthesis + 2-3 prototypes your team can start building immediately.
@@ -830,17 +827,39 @@ const SprintProgram = () => {
 
         {/* Mobile Cards */}
         <div className="md:hidden space-y-6 max-w-2xl mx-auto">
-          {[
-            { label: "Getting Started", traditional: "Weeks of planning and resource negotiation", bifocal: "24 hours from approval to kickoff" },
-            { label: "Timeline", traditional: "6-8 weeks", bifocal: "2 weeks per sprint" },
-            { label: "Concepts Tested", traditional: "1-2 concepts", bifocal: "5-10 concepts per sprint" },
-            { label: "Format", traditional: "Static mockups", bifocal: "Working code prototypes" },
-            { label: "Transparency", traditional: "Report at the end", bifocal: "Daily Slack updates" },
-            { label: "Iteration Speed", traditional: "Weeks between rounds", bifocal: "Rapid iteration after every user interview" },
-            { label: "Your Team's Time", traditional: "60+ hours", bifocal: "2-3 hours total" },
-            { label: "Freelance / Agency Cost", traditional: "$15k-50k+", bifocal: "Starting at $5,000" },
-          ].map((row, index) => (
-            <Card key={index}>
+          {[{
+          label: "Getting Started",
+          traditional: "Weeks of planning and resource negotiation",
+          bifocal: "24 hours from approval to kickoff"
+        }, {
+          label: "Timeline",
+          traditional: "6-8 weeks",
+          bifocal: "2 weeks per sprint"
+        }, {
+          label: "Concepts Tested",
+          traditional: "1-2 concepts",
+          bifocal: "5-10 concepts per sprint"
+        }, {
+          label: "Format",
+          traditional: "Static mockups",
+          bifocal: "Working code prototypes"
+        }, {
+          label: "Transparency",
+          traditional: "Report at the end",
+          bifocal: "Daily Slack updates"
+        }, {
+          label: "Iteration Speed",
+          traditional: "Weeks between rounds",
+          bifocal: "Rapid iteration after every user interview"
+        }, {
+          label: "Your Team's Time",
+          traditional: "60+ hours",
+          bifocal: "2-3 hours total"
+        }, {
+          label: "Freelance / Agency Cost",
+          traditional: "$15k-50k+",
+          bifocal: "Starting at $5,000"
+        }].map((row, index) => <Card key={index}>
               <CardHeader>
                 <CardTitle className="text-lg">{row.label}</CardTitle>
               </CardHeader>
@@ -860,8 +879,7 @@ const SprintProgram = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* CTA Button */}
@@ -893,8 +911,6 @@ const SprintProgram = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default SprintProgram;
