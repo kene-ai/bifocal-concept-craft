@@ -698,128 +698,128 @@ const SprintProgram = () => {
               <thead>
                 <tr className="border-b bg-background">
                   <th className="p-6 text-left font-semibold text-lg w-1/3"></th>
-                  <th className="p-6 text-left font-semibold text-lg bg-muted/50">Traditional Approach</th>
                   <th className="p-6 text-left font-semibold text-lg bg-primary/5 text-primary">Bifocal Sprint</th>
+                  <th className="p-6 text-left font-semibold text-lg bg-muted/50">Traditional Approach</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b">
                   <td className="p-6 font-semibold bg-background">Getting Started</td>
-                  <td className="p-6 bg-muted/50">
-                    <div className="flex items-start gap-3">
-                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">Weeks of planning and resource negotiation</span>
-                    </div>
-                  </td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>24 hours from approval to kickoff</span>
                     </div>
                   </td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-6 font-semibold bg-background">Timeline</td>
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">6-8 weeks</span>
+                      <span className="text-muted-foreground">Weeks of planning and resource negotiation</span>
                     </div>
                   </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Timeline</td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>2 weeks per sprint</span>
                     </div>
                   </td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-6 font-semibold bg-background">Concepts Tested</td>
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">1-2 concepts</span>
+                      <span className="text-muted-foreground">6-8 weeks</span>
                     </div>
                   </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Concepts Tested</td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>5-10 concepts per sprint</span>
                     </div>
                   </td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-6 font-semibold bg-background">Format</td>
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">Static mockups</span>
+                      <span className="text-muted-foreground">1-2 concepts</span>
                     </div>
                   </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Format</td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Working code prototypes</span>
                     </div>
                   </td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-6 font-semibold bg-background">Transparency</td>
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">Report at the end</span>
+                      <span className="text-muted-foreground">Static mockups</span>
                     </div>
                   </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Transparency</td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Daily Slack updates</span>
                     </div>
                   </td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-6 font-semibold bg-background">Iteration Speed</td>
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">Weeks between rounds</span>
+                      <span className="text-muted-foreground">Report at the end</span>
                     </div>
                   </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Iteration Speed</td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Rapid iteration after every user interview</span>
                     </div>
                   </td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-6 font-semibold bg-background">Your Team's Time</td>
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">60+ hours</span>
+                      <span className="text-muted-foreground">Weeks between rounds</span>
                     </div>
                   </td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-6 font-semibold bg-background">Your Team's Time</td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>2-3 hours total</span>
                     </div>
                   </td>
-                </tr>
-                <tr>
-                  <td className="p-6 font-semibold bg-background">Freelance / Agency Cost</td>
                   <td className="p-6 bg-muted/50">
                     <div className="flex items-start gap-3">
                       <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                      <span className="text-muted-foreground">$15k-50k+</span>
+                      <span className="text-muted-foreground">60+ hours</span>
                     </div>
                   </td>
+                </tr>
+                <tr>
+                  <td className="p-6 font-semibold bg-background">Freelance / Agency Cost</td>
                   <td className="p-6 bg-primary/5">
                     <div className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                       <span>Starting at $5,000</span>
+                    </div>
+                  </td>
+                  <td className="p-6 bg-muted/50">
+                    <div className="flex items-start gap-3">
+                      <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                      <span className="text-muted-foreground">$15k-50k+</span>
                     </div>
                   </td>
                 </tr>
@@ -846,17 +846,17 @@ const SprintProgram = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <div className="text-sm font-semibold text-muted-foreground mb-2">Traditional Approach</div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-destructive flex-shrink-0 mt-1">✗</span>
-                    <span className="text-muted-foreground">{row.traditional}</span>
-                  </div>
-                </div>
-                <div>
                   <div className="text-sm font-semibold text-primary mb-2">Bifocal Sprint</div>
                   <div className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <span>{row.bifocal}</span>
+                  </div>
+                </div>
+                <div>
+                  <div className="text-sm font-semibold text-muted-foreground mb-2">Traditional Approach</div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-destructive flex-shrink-0 mt-1">✗</span>
+                    <span className="text-muted-foreground">{row.traditional}</span>
                   </div>
                 </div>
               </CardContent>
