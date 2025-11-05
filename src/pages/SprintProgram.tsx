@@ -362,7 +362,7 @@ const SprintProgram = () => {
           <Tabs defaultValue="product" className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-8">
               <TabsTrigger value="product">Product Teams</TabsTrigger>
-              <TabsTrigger value="marketing">Marketing & Growth</TabsTrigger>
+              <TabsTrigger value="marketing">Marketing & Growth Teams</TabsTrigger>
               <TabsTrigger value="business">Business Strategy</TabsTrigger>
             </TabsList>
 
