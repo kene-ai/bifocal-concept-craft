@@ -522,11 +522,6 @@ const SprintProgram = () => {
               </CardContent>
             </Card>
           </div>
-
-          {/* Bottom Statement */}
-          <p className="text-center text-lg md:text-xl font-medium text-foreground max-w-4xl mx-auto">
-            This isn't just faster research—it's a fundamentally new capability for product discovery that wasn't possible until now.
-          </p>
         </div>
       </section>
 
