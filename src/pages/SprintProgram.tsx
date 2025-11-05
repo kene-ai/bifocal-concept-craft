@@ -670,6 +670,14 @@ const SprintProgram = () => {
               <p className="text-center font-semibold pt-2">
                 No retainers. No long-term commitments.
               </p>
+
+              {/* CTA Button */}
+              <div className="flex justify-center pt-6">
+                <Button size="lg" variant="hero">
+                  Book Consultation
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>
