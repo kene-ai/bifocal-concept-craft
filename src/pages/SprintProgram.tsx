@@ -137,7 +137,7 @@ const SprintProgram = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Test 5-10 product concepts using high-fidelity, working prototypes built in code, aligned to your brand and UX.
+                  We'll test 5-10 product concepts using high-fidelity, working prototypes built in code, aligned to your brand and UX.
                 </CardDescription>
               </CardContent>
             </Card>
