@@ -19,20 +19,25 @@ const SprintProgram = () => {
       <section className="container mx-auto px-6 py-24 md:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Side - Content */}
-          <div className="space-y-8">
+          <div className="space-y-6">
+            {/* Category Label */}
+            <div className="text-sm uppercase tracking-widest text-muted-foreground font-semibold">
+              The Bifocal Sprint
+            </div>
+            
             {/* Headline */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
               Validate your next product idea in two weeks with a full-service research and design sprint.
             </h1>
 
             {/* Subheadline */}
-            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
               Get a full product discovery cycle run by the Bifocal team. Test 5-10 concepts with real users and get working prototypes in code that your team can start building immediately.
             </p>
 
             {/* CTA Buttons */}
             <div className="pt-4 flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" className="group">
+              <Button variant="hero" size="lg" className="group">
                 Book 30 minute consultation
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
