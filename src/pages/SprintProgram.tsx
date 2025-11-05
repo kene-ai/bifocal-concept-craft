@@ -612,7 +612,7 @@ const SprintProgram = () => {
           {/* CTA */}
           <div className="flex justify-center">
             <Button variant="hero" size="lg">
-              See Example Deliverables
+              Book Your Sprint
             </Button>
           </div>
         </div>
