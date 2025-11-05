@@ -107,7 +107,7 @@ const SprintProgram = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Run customer interviews or surveys to understand needs, validate demand, and test concepts.
+                  We'll run customer interviews or surveys to understand needs, validate demand, and test concepts.
                 </CardDescription>
               </CardContent>
             </Card>
