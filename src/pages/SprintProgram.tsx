@@ -597,13 +597,6 @@ const SprintProgram = () => {
             </Card>
           </div>
 
-          {/* Bonus Callout */}
-          <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mb-8">
-            <p className="text-center text-base md:text-lg font-medium">
-              <span className="text-primary font-semibold">Bonus:</span> Your team stays aligned through collaborative review sessions throughout the sprint.
-            </p>
-          </div>
-
           {/* CTA */}
           <div className="flex justify-center">
             <Button variant="hero" size="lg">
