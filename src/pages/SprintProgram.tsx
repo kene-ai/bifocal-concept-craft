@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import sprintHeroImage from "@/assets/sprint-hero.jpg";
+import spotifyLogo from "@/assets/logos/spotify-logo.png";
+import netflixLogo from "@/assets/logos/netflix-logo.png";
+import metaLogo from "@/assets/logos/meta-logo.png";
+import instagramLogo from "@/assets/logos/instagram-logo.png";
 
 const SprintProgram = () => {
   return (
@@ -55,6 +59,24 @@ const SprintProgram = () => {
             </div>
             {/* Decorative gradient accent */}
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/10 rounded-full blur-3xl" />
+          </div>
+        </div>
+      </section>
+
+      {/* Social Proof Section */}
+      <section className="container mx-auto px-36 md:px-48 lg:px-60 py-16 md:py-20">
+        <div className="text-center space-y-12">
+          {/* Heading */}
+          <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            Every discovery sprint run by product, design and research leaders from world-class companies.
+          </p>
+
+          {/* Logo Grid */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 items-center justify-items-center opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+            <img src={spotifyLogo} alt="Spotify" className="h-8 md:h-10 w-auto object-contain" />
+            <img src={netflixLogo} alt="Netflix" className="h-8 md:h-10 w-auto object-contain" />
+            <img src={metaLogo} alt="Meta" className="h-8 md:h-10 w-auto object-contain" />
+            <img src={instagramLogo} alt="Instagram" className="h-8 md:h-10 w-auto object-contain" />
           </div>
         </div>
       </section>
